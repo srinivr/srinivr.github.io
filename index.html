@@ -27,11 +27,7 @@
             text-decoration: none;
         }
 
-        .description {
-            font-style: italic;
-        }
-
-        .intro{
+        .intro {
             font-family: 'Martel', serif;
             font-size: 15px;
         }
@@ -41,18 +37,13 @@
         th,
         tr,
         p {
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Martel', serif;
             font-size: 16px;
         }
 
         body {
 
             color: #222;
-        }
-
-        strong {
-            font-family: 'Open Sans', sans-serif;
-            font-weight: bold;
         }
 
         heading {
@@ -62,8 +53,24 @@
         }
 
         papertitle {
-            font-family: 'Open Sans', sans-serif;
+            /*font-family: 'Open Sans', sans-serif;*/
+            font-family: 'Poppins', sans-serif;
             font-size: 16px;
+        }
+
+        authors {
+            font-size: 15px;
+            /*font-family: 'Poppins', sans-serif;*/
+        }
+
+        author-self {
+            font-weight: bold;
+        }
+
+        description {
+            font-style: italic;
+            font-size: 15px;
+            /*font-family: 'Poppins', sans-serif;*/
         }
 
         name {
@@ -161,149 +168,186 @@
                     <td width="100%" valign="middle">
                         <heading>Publications</heading>
                         <p>
-                            <a href="data/msc_thesis.pdf">
-                                <papertitle>Automatic Goal-Conditioned Reinforcement Learning using Learned Distances
+                            <papertitle>
+                                <a href="data/msc_thesis.pdf">
+                                    Automatic Goal-Conditioned Reinforcement Learning using Learned Distances
                                     and
                                     Automatic Curriculum Generation
-                                </papertitle>
-                            </a>
+
+                                </a>
+                            </papertitle>
                             <br>
-                            <strong>Srinivas Venkattaramanujam</strong>
+                            <authors>
+                                <author-self>Srinivas Venkattaramanujam</author-self>
+                            </authors>
                             <br>
-                            <em>MSc Thesis</em>, 2020
+                            <description>MSc Thesis, 2020</description>
                         </p>
                         <p>
-                            <a href="data/distance_in_actions_icml_2020.pdf">
-                                <papertitle align="justify">Self-supervised Learning of Distance Functions for
+                            <papertitle>
+                                <a href="data/distance_in_actions_icml_2020.pdf">
+                                    Self-supervised Learning of Distance Functions for
                                     Goal-Conditioned
                                     Reinforcement Learning
-                                </papertitle>
-                            </a>
+
+                                </a>
+                            </papertitle>
                             <br>
-                            <strong>Srinivas Venkattaramanujam</strong>, Eric
-                            Crawford,
-                            Thang Doan, Doina Precup
+                            <authors>
+                                <author-self>Srinivas Venkattaramanujam</author-self>
+                                , Eric
+                                Crawford,
+                                Thang Doan, Doina Precup
+                            </authors>
                             <br>
-                            <em>Preprint</em>, 2020
+                            <description>Preprint, 2020</description>
                         </p>
                     </td>
                 </tr>
 
                 <tr align="justify">
                     <td width="100%" valign="middle">
-                        <heading>Projects</heading>
+                        <heading>ML Projects</heading>
                         <p>
-                            <a href="data/comp598_srini.pdf">A Guided Tour of 'Metrics for MDPs with Infinite State
-                                Spaces'</a>
+                            <papertitle>
+                                <a href="data/comp598_srini.pdf">A Guided Tour of Metrics for MDPs with Infinite State
+                                    Spaces</a>
+                            </papertitle>
                             <br>
-                            <strong>Srinivas Venkattaramanujam</strong><br>
-                            <text class="description"> Final Project - Mathematical Foundations of Machine Learning
-                            </text>
+                            <authors>
+                                <author-self>Srinivas Venkattaramanujam</author-self>
+                            </authors>
+                            <br>
+                            <description>
+                                Final Project - Mathematical Foundations of Machine Learning
+                            </description>
                         </p>
                         <p>
-                            <a
-                                    href="https://github.com/srinivr/rl">Implementation of <a
-                                    href="https://arxiv.org/abs/1710.11417"> TreeQN</a>
-                            </a><br>
-                            <strong>Srinivas Venkattaramanujam</strong><br>
-                            <text class="description"> Final Project - <a
+                            <papertitle>
+                                <a
+                                        href="https://github.com/srinivr/rl">Implementation of <a
+                                        href="https://arxiv.org/abs/1710.11417"> TreeQN</a>
+                                </a>
+                            </papertitle>
+                            <br>
+                            <authors>
+                                <author-self>Srinivas Venkattaramanujam</author-self>
+                                <br>
+                            </authors>
+                            <description> Final Project - <a
                                     href="https://www.cs.mcgill.ca/~dprecup/courses/RL/syllabus.html">Reinforcement
-                                Learning</a></text>
+                                Learning</a>
+                            </description>
                         </p>
                         <p>
-                            <a href="https://dl.acm.org/doi/10.5555/944919.944937"> Implementation of Latent Dirichlet
-                                Allocation </a>
+                            <papertitle>
+                                <a href="https://dl.acm.org/doi/10.5555/944919.944937"> Implementation of Latent
+                                    Dirichlet
+                                    Allocation </a>
+                            </papertitle>
                             <br>
-                            <strong>Srinivas Venkattaramanujam</strong>, Orlando, Xiao <br>
-                            <text class="description">Final Project -
+                            <authors>
+                                <author-self>Srinivas Venkattaramanujam</author-self>
+                                , Orlando, Xiao
+                            </authors>
+                            <br>
+                            <description>Final Project -
                                 <a href="http://www.iro.umontreal.ca/~slacoste/teaching/ift6269/A17/">Probabilistic
-                                    Graphical Models</a></text>
+                                    Graphical Models</a>
+                            </description>
+                        </p>
+                        <p align="justify">
+                            <papertitle>
+                                <a href="https://github.com/srinivr/kaldi-long-audio-alignment">Automatic alignment of
+                                    audio and transcription using Automatic Speech Recognition</a>
+                            </papertitle>
+                            <br>
+                            <authors>
+                                <author-self>Srinivas Venkattaramanujam</author-self>
+                            </authors>
+                            <br>
+                            <description>
+                                Speed up acoustic model training @ <a href="http://www.ee.iitm.ac.in/~umeshs/">Speech Lab, IIT Madras</a>
+                            </description>
                         </p>
                     </td>
                 </tr>
 
                 <tr align="justify">
                     <td width="100%" valign="middle">
-                        <heading>Work Projects</heading>
-                        <p align="justify">
-                            <a href="http://www.ee.iitm.ac.in/~umeshs/">Speech Lab</a> (IITM): <a
-                                href="https://github.com/srinivr/kaldi-long-audio-alignment">Long Audio Alignment using
-                            Kaldi</a>
+                        <heading>Software Engineering Projects</heading>
+                        <p>
+                            <papertitle>
+                                <a href="http://pickyourtrail.com">PickYourTrail Travel Genie Android app</a>
+                            </papertitle>
                             <br>
-                            Create smaller audio segments along with its corresponding transcription from the longer
-                            audio segment
-                            and its transcription. This toolkit is functionally similar to
-                            <a href="https://github.com/nassosoassos/sail_align">SailAlign</a>
-                            and implements ideas from <a
-                                href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.649.6346&rep=rep1&type=pdf">these</a>
-                            <a href="https://homepages.inf.ed.ac.uk/srenals/pb-align-asru2015.pdf">two</a> papers.
+                            <authors>
+                                <author-self>Srinivas Venkattaramanujam</author-self>, Ajit Kumar, Hari Ganapathy
+                            </authors>
+                            <br>
+                            <description>
+                                Display personalized itinerary @
+                                <a href="https://pickyourtrail.com">PickYourTrail.com</a>
+                                <br>
+                                <br>
+                                <a href="images/pyt/1.jpeg" class="js-smartPhoto" data-caption="1" data-id="1"
+                                   data-group="pyt"/>
+                                <img src="images/pyt/1.jpeg" alt="" width="8%" height="12%"/>
+                                <a href="images/pyt/2.jpeg" class="js-smartPhoto" data-caption="2" data-id="2"
+                                   data-group="pyt"/>
+                                <img src="images/pyt/2.jpeg" width="8%" height="12%"/>
+                                <a href="images/pyt/3.jpeg" class="js-smartPhoto" data-caption="3" data-id="3"
+                                   data-group="pyt"/>
+                                <img src="images/pyt/3.jpeg" width="8%" height="12%"/>
+                                <a href="images/pyt/4.jpeg" class="js-smartPhoto" data-caption="4" data-id="4"
+                                   data-group="pyt"/>
+                                <img src="images/pyt/4.jpeg" width="8%" height="12%"/>
+                                <a href="images/pyt/5.jpeg" class="js-smartPhoto" data-caption="5" data-id="5"
+                                   data-group="pyt"/>
+                                <img src="images/pyt/5.jpeg" width="8%" height="12%"/>
+                                <a href="images/pyt/6.jpeg" class="js-smartPhoto" data-caption="6" data-id="6"
+                                   data-group="pyt"/>
+                                <img src="images/pyt/6.jpeg" width="8%" height="12%"/>
+                                <a href="images/pyt/7.jpeg" class="js-smartPhoto" data-caption="7" data-id="7"
+                                   data-group="pyt"/>
+                                <img src="images/pyt/7.jpeg" width="8%" height="12%"/>
+                            </description>
                         </p>
                         <p>
-                            <a href="http://pickyourtrail.com">PickYourTrail</a>: Travel Genie (Android app)
+                            <papertitle>
+                                <a href="#">ShopperLane</a>
+                            </papertitle>
                             <br>
-                            Developed the Android app which displayed the digital itineraries of the users and provided
-                            notifications
-                            before each activity. The layout and icons were designed by a highly talented designer,
-                            Ajit, and
-                            <a href="https://twitter.com/haripyt">Hari</a>. I also contributed to the first version of
-                            <a href="https://pickyourtrail.com/customize">Veho</a>.
+                            <authors>
+                                <author-self>Srinivas Venkattaramanujam</author-self>
+                            </authors>
                             <br>
-                            <br>
-                            <a href="images/pyt/1.jpeg" class="js-smartPhoto" data-caption="1" data-id="1"
-                               data-group="pyt"/>
-                            <img src="images/pyt/1.jpeg" alt="" width="8%" height="12%"/>
-                            <a href="images/pyt/2.jpeg" class="js-smartPhoto" data-caption="2" data-id="2"
-                               data-group="pyt"/>
-                            <img src="images/pyt/2.jpeg" width="8%" height="12%"/>
-                            <a href="images/pyt/3.jpeg" class="js-smartPhoto" data-caption="3" data-id="3"
-                               data-group="pyt"/>
-                            <img src="images/pyt/3.jpeg" width="8%" height="12%"/>
-                            <a href="images/pyt/4.jpeg" class="js-smartPhoto" data-caption="4" data-id="4"
-                               data-group="pyt"/>
-                            <img src="images/pyt/4.jpeg" width="8%" height="12%"/>
-                            <a href="images/pyt/5.jpeg" class="js-smartPhoto" data-caption="5" data-id="5"
-                               data-group="pyt"/>
-                            <img src="images/pyt/5.jpeg" width="8%" height="12%"/>
-                            <a href="images/pyt/6.jpeg" class="js-smartPhoto" data-caption="6" data-id="6"
-                               data-group="pyt"/>
-                            <img src="images/pyt/6.jpeg" width="8%" height="12%"/>
-                            <a href="images/pyt/7.jpeg" class="js-smartPhoto" data-caption="7" data-id="7"
-                               data-group="pyt"/>
-                            <img src="images/pyt/7.jpeg" width="8%" height="12%"/>
-                            <a></a>
-                        </p>
-                        <p>
-                            <a href="#">ShopperLane</a>: Android app, Inventory management and billing web apps
-                            <br>
-                            Built ShopperLane with the vision of democratizing the inventory information of
-                            neighbourhood stores.
-                            Products are searchable across stores within the specified radius of a user's location or
-                            alternatively
-                            can be browsed within a store.
-                            <br>
-                            <br>
-                            <a href="images/sl/2.jpg" class="js-smartPhoto" data-caption="2" data-id="2"
-                               data-group="sl"/>
-                            <img src="images/sl/2.jpg" width="8%" height="5.5%"/>
-                            <a href="images/sl/3.jpg" class="js-smartPhoto" data-caption="3" data-id="3"
-                               data-group="sl"/>
-                            <img src="images/sl/3.jpg" width="8%" height="5.5%"/>
-                            <a href="images/sl/4.jpg" class="js-smartPhoto" data-caption="4" data-id="4"
-                               data-group="sl"/>
-                            <img src="images/sl/4.jpg" width="8%" height="5.5%"/>
-                            <a href="images/sl/5.jpg" class="js-smartPhoto" data-caption="5" data-id="5"
-                               data-group="sl"/>
-                            <img src="images/sl/5.jpg" width="8%" height="5.5%"/>
-                            <a href="images/sl/6.jpg" class="js-smartPhoto" data-caption="6" data-id="6"
-                               data-group="sl"/>
-                            <img src="images/sl/6.jpg" width="8%" height="5.5%"/>
-                            <a href="images/sl/7.jpg" class="js-smartPhoto" data-caption="7" data-id="7"
-                               data-group="sl"/>
-                            <img src="images/sl/7.jpg" width="8%" height="5.5%"/>
-                            <a href="images/sl/8.jpg" class="js-smartPhoto" data-caption="8" data-id="8"
-                               data-group="sl"/>
-                            <img src="images/sl/8.jpg" width="8%" height="5.5%"/>
-                            <a></a>
+                            <description>
+                                Find products in neighbourhood stores. Realtime product information from retailers are
+                                obtained by providing free inventory management and billing apps.
+                                <br>
+                                <a href="images/sl/2.jpg" class="js-smartPhoto" data-caption="2" data-id="2"
+                                   data-group="sl"/>
+                                <img src="images/sl/2.jpg" width="8%" height="5.5%"/>
+                                <a href="images/sl/3.jpg" class="js-smartPhoto" data-caption="3" data-id="3"
+                                   data-group="sl"/>
+                                <img src="images/sl/3.jpg" width="8%" height="5.5%"/>
+                                <a href="images/sl/4.jpg" class="js-smartPhoto" data-caption="4" data-id="4"
+                                   data-group="sl"/>
+                                <img src="images/sl/4.jpg" width="8%" height="5.5%"/>
+                                <a href="images/sl/5.jpg" class="js-smartPhoto" data-caption="5" data-id="5"
+                                   data-group="sl"/>
+                                <img src="images/sl/5.jpg" width="8%" height="5.5%"/>
+                                <a href="images/sl/6.jpg" class="js-smartPhoto" data-caption="6" data-id="6"
+                                   data-group="sl"/>
+                                <img src="images/sl/6.jpg" width="8%" height="5.5%"/>
+                                <a href="images/sl/7.jpg" class="js-smartPhoto" data-caption="7" data-id="7"
+                                   data-group="sl"/>
+                                <img src="images/sl/7.jpg" width="8%" height="5.5%"/>
+                                <a href="images/sl/8.jpg" class="js-smartPhoto" data-caption="8" data-id="8"
+                                   data-group="sl"/>
+                                <img src="images/sl/8.jpg" width="8%" height="5.5%"/>
+                            </description>
                         </p>
                     </td>
                 </tr>
